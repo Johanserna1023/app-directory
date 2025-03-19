@@ -1,76 +1,57 @@
-# Dictionary Web Application
+Aplicación web de diccionario
+Una aplicación web de diccionario moderna creada con Next.js, TypeScript y Tailwind CSS.
 
-A modern dictionary web application built with Next.js, TypeScript, and Tailwind CSS.
+Características
+Búsqueda de palabras con definiciones detalladas, ejemplos y pronunciaciones.
+Pronunciación en audio cuando esté disponible
+Cambio de fuente (Sans Serif, Serif, Monospace)
+Tema claro/oscuro con detección de preferencias del sistema
+Historial de búsqueda con marcas de tiempo
+Diseño responsivo
+Validación de formulario
+Gestión de estados de Redux
+Pruebas unitarias
+Tecnologías utilizadas
+Next.js 13
+Mecanografiado
+CSS de viento de cola
+Kit de herramientas Redux
+Componentes Shadcn/UI
+Biblioteca de pruebas de Jest y React
+API de diccionario gratuito
+Empezando
+Clonar el repositorio
+Instalar dependencias:
+npm install
+Ejecute el servidor de desarrollo:
+npm run dev
+Abra http://localhost:3000 en su navegador
+Pruebas
+Ejecute el conjunto de pruebas:
 
-## Features
-
-- Word search with detailed definitions, examples, and pronunciations
-- Audio pronunciation when available
-- Font switching (Sans Serif, Serif, Monospace)
-- Light/Dark theme with system preference detection
-- Search history with timestamps
-- Responsive design
-- Form validation
-- Redux state management
-- Unit testing
-
-## Technologies Used
-
-- Next.js 13
-- TypeScript
-- Tailwind CSS
-- Redux Toolkit
-- Shadcn/UI Components
-- Jest & React Testing Library
-- Free Dictionary API
-
-## Getting Started
-
-1. Clone the repository
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Run the development server:
-   ```bash
-   npm run dev
-   ```
-4. Open [http://localhost:3000](http://localhost:3000) in your browser
-
-## Testing
-
-Run the test suite:
-```bash
 npm test
-```
+Implementación de funciones
+Características principales
+✅ Búsqueda de palabras usando la API de diccionario gratuito
+✅ Validación de formulario para búsquedas vacías
+✅ Reproducción de pronunciación de audio
+✅ Cambio de fuente
+✅ Cambio de tema
+✅ Diseño responsivo
+✅ Estados de elementos interactivos (pasar el cursor/enfocar)
+✅ Historial de búsqueda con marcas de tiempo
+Características adicionales
+✅ Pruebas unitarias
+✅ Validación de búsqueda robusta
+✅ Adaptación de color del modo oscuro
+✅ Detección de preferencia de esquema de colores del sistema
+✅ Gestión de estados del kit de herramientas Redux
+API
+Este proyecto utiliza la API de diccionario gratuito para definiciones de palabras.
 
-## Features Implementation
-
-### Core Features
-- ✅ Word search using Free Dictionary API
-- ✅ Form validation for empty searches
-- ✅ Audio pronunciation playback
-- ✅ Font switching
-- ✅ Theme switching
-- ✅ Responsive design
-- ✅ Interactive element states (hover/focus)
-- ✅ Search history with timestamps
-
-### Bonus Features
-- ✅ Unit tests
-- ✅ Robust search validation
-- ✅ Dark mode color adaptation
-- ✅ System color scheme preference detection
-- ✅ Redux Toolkit state management
-
-## API
-
-This project uses the [Free Dictionary API](https://dictionaryapi.dev/) for word definitions.
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a new Pull Request
+Contribuyendo
+Bifurcar el repositorio
+Crea tu rama de funciones
+Confirme sus cambios
+Empujar hacia la rama
+Crear una nueva solicitud de extracción
